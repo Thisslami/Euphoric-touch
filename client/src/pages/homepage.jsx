@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import NavBar from "../components/navbar";
 import Hero from "../components/hero";
 import Services from "../components/services";

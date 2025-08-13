@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import ceoImage from "../assets/tish.jpg"; // Ensure you have a CEO image in your assets folder
+import ceoImage from "../assets/massagetherapist.jpg"; // Ensure you have a CEO image in your assets folder
 
 const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
   return (
@@ -88,8 +88,8 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
               alt="CEO"
               roundedCircle
               fluid
-              width={400}
-              height={400}
+              width={800}
+              height={600}
               className="shadow-lg img-fluid"
             />
           </Col>
